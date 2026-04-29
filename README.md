@@ -1,4 +1,4 @@
-#  PactPool — Commitment Capital
+# PactPool — Commitment Capital
 
 > DECRYPTO Hackathon — Problem Statement 3: DeFi
 
