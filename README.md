@@ -8,7 +8,7 @@ Lock ETH with a goal. Break your pact early and pay a penalty. That penalty gets
 
 ---
 
-## 🔗 Links
+##  Links
 
 - **Live Demo:** https://YOUR_USERNAME.github.io/pactpool-decrypto
 - **Contract (Sepolia):** `PASTE_CONTRACT_ADDRESS_HERE`
@@ -16,7 +16,7 @@ Lock ETH with a goal. Break your pact early and pay a penalty. That penalty gets
 
 ---
 
-## 💡 The Core Idea
+##  The Core Idea
 
 Most savings apps fail because there's no real cost to quitting. PactPool flips this with **Commitment Capital** — your ETH is locked by a smart contract, and breaking the pact funds the rewards of everyone who didn't.
 
@@ -24,42 +24,42 @@ Most savings apps fail because there's no real cost to quitting. PactPool flips 
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎯 Commitment Tiers
+###  Commitment Tiers
 Choose your risk-reward level before locking:
 
 | Tier | Penalty Range | Pool Share Multiplier |
 |------|--------------|----------------------|
-| 🥉 Bronze | 10–15% | 1.0× |
-| 🥈 Silver | 15–22% | 1.5× |
-| 🥇 Gold | 20–30% | 2.5× |
+|  Bronze | 10–15% | 1.0× |
+|  Silver | 15–22% | 1.5× |
+|  Gold | 20–30% | 2.5× |
 
 Higher tier = higher penalty if you break, but a larger slice of the penalty pool if you complete.
 
-### 📂 Goal Categories
+### Goal Categories
 Tag your savings goal with a category for the public Goal Wall:
 
-✈️ Travel · 📚 Study · 🛡️ Safety · 💪 Health · 💻 Gadget · 💼 Business
+ Travel ·  Study ·  Safety ·  Health ·  Gadget ·  Business
 
-### 📊 Penalty Curve Simulator
+###  Penalty Curve Simulator
 Interactive canvas chart that lets you visualize exactly how much you'd lose vs. keep at any point in your lock period — before you commit. Adjust lock period, ETH amount, and withdrawal day in real time.
 
-### ⏱️ Live Countdown Timer
+###  Live Countdown Timer
 Once locked, your active pact card shows a live days/hours/minutes/seconds countdown to your unlock date, along with a real-time penalty percentage if you were to withdraw at that exact moment.
 
-### 📡 Live Activity Ticker
+###  Live Activity Ticker
 A scrolling marquee strip shows real on-chain events — new pacts locked, early withdrawals with penalty amounts, and completed claims with bonus rewards.
 
-### 🧱 Goal Wall (dashboard.html)
+###  Goal Wall (dashboard.html)
 A public, no-wallet-needed board showing every saver's goal, category, progress bar, and status. Filter by Active / Completed / Pact Broken. Search by goal text or wallet address.
 
-### 🔁 Auto Wallet Reconnect
+###  Auto Wallet Reconnect
 If MetaMask was previously connected, the app reconnects automatically on page load — no extra click needed.
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 1. **Pick a tier** (Bronze / Silver / Gold) and select a goal category
 2. **Write your goal**, enter ETH amount, and set a lock period (1–90 days)
@@ -67,12 +67,12 @@ If MetaMask was previously connected, the app reconnects automatically on page l
 4. **Lock ETH** — MetaMask signs the transaction; your pact is live on Sepolia
 5. **Your goal appears** on the public Goal Wall immediately
 6. **Two outcomes:**
-   - ✅ Reach unlock date → withdraw full ETH + claim your share of the penalty pool
-   - 🚨 Withdraw early → pay 10–30% dynamic penalty, which is redistributed to other savers
+   -  Reach unlock date → withdraw full ETH + claim your share of the penalty pool
+   -  Withdraw early → pay 10–30% dynamic penalty, which is redistributed to other savers
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Tech |
 |---|---|
@@ -86,7 +86,7 @@ If MetaMask was previously connected, the app reconnects automatically on page l
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 pactpool-decrypto/
@@ -97,7 +97,7 @@ pactpool-decrypto/
 
 ---
 
-## ⚙️ Contract Functions Used
+##  Contract Functions Used
 
 | Function | Description |
 |---|---|
@@ -109,7 +109,7 @@ pactpool-decrypto/
 
 ---
 
-## 🔐 Security
+##  Security
 
 - **Reentrancy protected** — Checks-Effects-Interactions pattern; amount zeroed before transfer
 - **Basis points math** — Penalty calculated using 10,000 = 100% to prevent integer truncation errors
@@ -118,19 +118,19 @@ pactpool-decrypto/
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 No setup required. Just open `index.html` in Chrome with MetaMask installed and switched to **Sepolia testnet**. The page works in demo mode before the contract address is set.
 
 ---
 
-## 🎤 Pitch in One Line
+##  Pitch in One Line
 
 > "An FD you can't break without funding someone else's dream."
 
 ---
 
-## 👥 Team
+##  Team
 
 - **P1** — Smart Contract Dev (Solidity, Remix, Etherscan verification)
 - **P2** — Frontend Dev (Deposit UI, wallet connect)
