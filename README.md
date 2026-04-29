@@ -1,8 +1,8 @@
-# ⬡ PactPool — Commitment Capital
+#  PactPool — Commitment Capital
 
-> **DECRYPTO Hackathon — Problem Statement 3: DeFi**
+> DECRYPTO Hackathon — Problem Statement 3: DeFi
 
-**Savings with real skin in the game — enforced by code.**
+Savings with real skin in the game — enforced by code.
 
 Lock ETH with a goal. Break your pact early and pay a penalty. That penalty gets redistributed proportionally to savers who stayed disciplined. No bank. No middleman. No exceptions.
 
@@ -10,9 +10,9 @@ Lock ETH with a goal. Break your pact early and pay a penalty. That penalty gets
 
 ##  Links
 
-- **Live Demo:** https://YOUR_USERNAME.github.io/pactpool-decrypto
-- **Contract (Sepolia):** `PASTE_CONTRACT_ADDRESS_HERE`
-- **Etherscan:** https://sepolia.etherscan.io/address/PASTE_CONTRACT_ADDRESS_HERE
+- Live Demo: https://YOUR_USERNAME.github.io/pactpool-decrypto
+- Contract:(Sepolia): `PASTE_CONTRACT_ADDRESS_HERE`
+- Etherscan: https://sepolia.etherscan.io/address/PASTE_CONTRACT_ADDRESS_HERE
 
 ---
 
@@ -61,12 +61,12 @@ If MetaMask was previously connected, the app reconnects automatically on page l
 
 ##  How It Works
 
-1. **Pick a tier** (Bronze / Silver / Gold) and select a goal category
-2. **Write your goal**, enter ETH amount, and set a lock period (1–90 days)
-3. **Preview your pact** — see unlock time, max/min penalty, and pool share multiplier before confirming
-4. **Lock ETH** — MetaMask signs the transaction; your pact is live on Sepolia
-5. **Your goal appears** on the public Goal Wall immediately
-6. **Two outcomes:**
+1. Pick a tier (Bronze / Silver / Gold) and select a goal category
+2. Write your goal, enter ETH amount, and set a lock period (1–90 days)
+3. Preview your pact — see unlock time, max/min penalty, and pool share multiplier before confirming
+4. Lock ETH — MetaMask signs the transaction; your pact is live on Sepolia
+5. Your goal appears on the public Goal Wall immediately
+6. Two outcomes:
    -  Reach unlock date → withdraw full ETH + claim your share of the penalty pool
    -  Withdraw early → pay 10–30% dynamic penalty, which is redistributed to other savers
 
@@ -111,10 +111,10 @@ pactpool-decrypto/
 
 ##  Security
 
-- **Reentrancy protected** — Checks-Effects-Interactions pattern; amount zeroed before transfer
-- **Basis points math** — Penalty calculated using 10,000 = 100% to prevent integer truncation errors
-- **No admin keys** — Fully permissionless contract; no owner can pause, drain, or modify it
-- **Compiler** — Solidity 0.8.20 with built-in overflow protection
+- Reentrancy protected — Checks-Effects-Interactions pattern; amount zeroed before transfer
+- Basis points math — Penalty calculated using 10,000 = 100% to prevent integer truncation errors
+- No admin keys — Fully permissionless contract; no owner can pause, drain, or modify it
+- Compiler — Solidity 0.8.20 with built-in overflow protection
 
 ---
 
@@ -132,11 +132,11 @@ No setup required. Just open `index.html` in Chrome with MetaMask installed and 
 
 ##  Team
 
-- **P1** — Smart Contract Dev (Solidity, Remix, Etherscan verification)
-- **P2** — Frontend Dev (Deposit UI, wallet connect)
-- **P3** — Frontend Dev (Goal Wall / Dashboard)
-- **P4** — Integration Lead (ABI wiring, GitHub Pages deployment, demo prep)
+- Vaibhav — Smart Contract Dev (Solidity, Remix, Etherscan verification)
+- Sai Samarth — Frontend Dev (Deposit UI, wallet connect)
+- Yatin arora — Frontend Dev (Goal Wall / Dashboard)
+- Harsh Vardhan — Integration Lead (ABI wiring, GitHub Pages deployment, demo prep)
 
 ---
 
-*Built in 2 hours at DECRYPTO Hackathon · Problem Statement 3: DeFi*
+Built in 2 hours at DECRYPTO Hackathon · Problem Statement 3: DeFi
